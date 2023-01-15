@@ -1,16 +1,41 @@
 body {
+    padding: 0px;
+    width: 75%;
+    margin: auto;
     font: 18px Arial;
 }
-.centrar {
+h1 {
+    border: 1px solid gray; 
+    border-radius: 10px 0px 10px 0px;
+}
+.cabecera {
+    padding: 5px 20px;
     text-align: center;
+    border-bottom: 1px dashed gray;
+}
+.contenido {
+    padding: 5px 20px;
+    text-align: left;
+}
+.pie {
+    padding: 5px 20px;
+    text-align: center;
+    border-top: 1px dashed gray;
 }
 .resaltar {
     color:brown;
     font-weight: bolder;
 }
 .borde {
+    line-height: 3  0px;
     border-radius: 5px;
     border: 1px solid #000;
     padding: 0 10px;
     margin: 0 2px;
+}
+
+.borde:hover {
+    background-color: #ddd;
+}
+.slogan {
 }
