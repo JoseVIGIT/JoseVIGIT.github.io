@@ -8,57 +8,75 @@ h1 {
     border: 1px solid gray; 
     border-radius: 10px 0px 10px 0px;
 }
-nav {
-	text-align: left;
+ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
 }
-nav a {
-	text-decoration: none;
-}
-nav .etiqueta {
-	line-height: 30px;
-    border-radius: 5px 15px 0px 0px;
-    border: 1px solid #000;
-	border-bottom: 0px;
-    padding: 5px 10px;
-    margin: 0 2px;
-}
+
 .cabecera {
     padding: 10px 0px 0px;
-    text-align: center;	
+    text-align: center;    
 }
 .cabecera h1
 {
-	padding: 5px;
-	background: #111;
-	color: #fff;
-	margin-top: 0px;
-	
+    padding: 5px;
+    background: #111;
+    color: #fff;
+    margin-top: 0px;
 }
+#logoGITHUB {
+    width: 50px;
+    vertical-align: text-bottom;
+}
+nav {
+    text-align: left;
+}
+nav a {
+    text-decoration: none;
+}
+nav .etiqueta {
+    line-height: 30px;
+    border-radius: 5px 15px 0px 0px;
+    border: 1px solid #000;
+    border-bottom: 0px;
+    padding: 5px 10px;
+    margin: 0 2px;
+}
+#btnPresentacion {
+    background-color: #ccc;
+}
+
+
+.contenido {
+    margin: 0 0 25px 0;
+    padding: 5px 20px;
+    text-align: left;
+    border-top: 1px dashed gray;
+    border-bottom: 1px dashed gray;
+}
+#Ejemplos {
+    display: none;
+}
+#nubeTAGS {
+    text-align: center;
+}
+
+
 .pie {
     padding: 0px 0px 5px 0px;
-	margin-bottom: 10px;
+    margin-bottom: 10px;
     text-align: center;
     background: #111;
-	color: #fff;
-	
-	border: 1px solid gray; 
+    color: #fff;
+    
+    border: 1px solid gray; 
     border-radius: 10px 0px 10px 0px;
 }
 .pie a {
-	color: #fff;
+    color: #fff;
 }
 
-#logoGITHUB {
-	width: 50px;
-	vertical-align: text-bottom;
-}
-.contenido {
-	margin: 0 0 25px 0;
-    padding: 5px 20px;
-    text-align: left;
-	border-top: 1px dashed gray;
-	border-bottom: 1px dashed gray;
-}
 
 .resaltar {
     color:brown;
@@ -70,21 +88,4 @@ nav .etiqueta {
     border: 1px solid #000;
     padding: 0 10px;
     margin: 0 2px;
-}
-
-.borde:hover {
-    background-color: #ddd;
-}
-.slogan {
-}
-#Ejemplos {
-	display: none;
-}
-ul {
-	padding: 0px;
-	margin: 0px;
-	list-style: none;
-}
-#nubeTAGS {
-	text-align: center;
 }
