@@ -23,19 +23,43 @@ nav .etiqueta {
     margin: 0 2px;
 }
 .cabecera {
-    padding: 5px 20px 0px;
-    text-align: center;
-    border-bottom: 1px dashed gray;
+    padding: 10px 0px 0px;
+    text-align: center;	
 }
-.contenido {
-    padding: 5px 20px;
-    text-align: left;
+.cabecera h1
+{
+	padding: 5px;
+	background: #111;
+	color: #fff;
+	margin-top: 0px;
+	
 }
 .pie {
-    padding: 5px 20px;
+    padding: 0px 0px 5px 0px;
+	margin-bottom: 10px;
     text-align: center;
-    border-top: 1px dashed gray;
+    background: #111;
+	color: #fff;
+	
+	border: 1px solid gray; 
+    border-radius: 10px 0px 10px 0px;
 }
+.pie a {
+	color: #fff;
+}
+
+#logoGITHUB {
+	width: 50px;
+	vertical-align: text-bottom;
+}
+.contenido {
+	margin: 0 0 25px 0;
+    padding: 5px 20px;
+    text-align: left;
+	border-top: 1px dashed gray;
+	border-bottom: 1px dashed gray;
+}
+
 .resaltar {
     color:brown;
     font-weight: bolder;
@@ -55,4 +79,12 @@ nav .etiqueta {
 }
 #Ejemplos {
 	display: none;
+}
+ul {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+#nubeTAGS {
+	text-align: center;
 }
