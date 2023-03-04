@@ -8,8 +8,22 @@ h1 {
     border: 1px solid gray; 
     border-radius: 10px 0px 10px 0px;
 }
+nav {
+	text-align: left;
+}
+nav a {
+	text-decoration: none;
+}
+nav .etiqueta {
+	line-height: 30px;
+    border-radius: 5px 15px 0px 0px;
+    border: 1px solid #000;
+	border-bottom: 0px;
+    padding: 5px 10px;
+    margin: 0 2px;
+}
 .cabecera {
-    padding: 5px 20px;
+    padding: 5px 20px 0px;
     text-align: center;
     border-bottom: 1px dashed gray;
 }
@@ -38,4 +52,7 @@ h1 {
     background-color: #ddd;
 }
 .slogan {
+}
+#Ejemplos {
+	display: none;
 }
