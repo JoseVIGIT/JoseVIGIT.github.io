@@ -4,47 +4,62 @@ body {
     margin: auto;
     font: 18px Arial;
 }
-h1 {
-    border: 1px solid gray; 
-    border-radius: 10px 0px 10px 0px;
-	margin: 0;
-}
-ul {
-    padding: 0px;
-    margin: 0px;
-    list-style: none;
-}
 
-.cabecera {
+
+#cabecera {
     padding: 10px 0px 0px;
     text-align: center;    
 }
-.cabecera h1
-{
+#cabecera h1 {
+    border: 1px solid gray; 
+    border-radius: 10px 0px 10px 0px;
+	margin: 0;
     padding: 5px;
     background: #111;
     color: #fff;
     margin-top: 0px;
 }
-#logoGITHUB {
+#cabecera #logoGITHUB {
     width: 50px;
     vertical-align: text-bottom;
 }
-nav {
-    text-align: left;
+#cabecera #slogan {
+	padding: 10px 0;
+	margin: 1px 0 10px 0;	
+	background: #ccc url("../img/fondoSlogan.jpg") left top;
+	background-size: cover;
 }
-nav a {
+#cabecera #sloganTexto {	
+	background-color:#fff; 
+	padding: 10px 30px;
+	width: fit-content;
+	margin: auto;	
+	border-radius: 5px;
+    border: 1px solid #000; 
+	text-align:left;
+	opacity: 0.80;
+	font-weight: bold;
+	font-style: italic;
+}
+#cabecera nav {
+    text-align: left;
+    padding-top: 1px;    
+}
+#cabecera nav a {
     text-decoration: none;
 }
-nav .etiqueta {
+#cabecera nav .etiqueta {
     line-height: 30px;
     border-radius: 5px 15px 0px 0px;
     border: 1px solid #000;
     border-bottom: 0px;
     padding: 5px 10px;
-    margin: 0 2px;
+    margin: 0px;
 }
-#btnEjemplos {
+#cabecera nav #btnPresentacion {
+    background: #fff;
+}
+#cabecera nav #btnEjemplos {
     background-color: #ccc;
 }
 
@@ -56,29 +71,36 @@ nav .etiqueta {
     border-top: 1px dashed gray;
     border-bottom: 1px dashed gray;
 }
-#Ejemplos {
-    display: none;
-}
 #nubeTAGS {
     text-align: center;
 }
+#Presentacion {
+
+}
+#Ejemplos {
+    display: none;
+}
 
 
-.pie {
+#pie {
     padding: 0px 0px 5px 0px;
     margin-bottom: 10px;
     text-align: center;
     background: #111;
-    color: #fff;
-    
+    color: #fff;   
     border: 1px solid gray; 
     border-radius: 10px 0px 10px 0px;
 }
-.pie a {
+#pie a {
     color: #fff;
 }
 
 
+ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
 .resaltar {
     color:brown;
     font-weight: bolder;
@@ -89,24 +111,4 @@ nav .etiqueta {
     border: 1px solid #000;
     padding: 0 10px;
     margin: 0 2px;
-}
-
-.slogan {
-	padding: 10px 0;
-	margin: 1px 0 10px 0;	
-	background: #ccc url("../img/fondoSlogan.jpg") left top;
-	background-size: cover;
-}
-
-.sloganTexto {	
-	background-color:#fff; 
-	padding: 10px 30px;
-	width: fit-content;
-	margin: auto;	
-	border-radius: 5px;
-    border: 1px solid #000; 
-	text-align:left;
-	opacity: 0.80;
-	font-weight: bold;
-	font-style: italic;
 }
