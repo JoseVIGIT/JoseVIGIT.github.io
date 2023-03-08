@@ -1,12 +1,15 @@
 body {
     padding: 0px;
-    width: 95%;
-    margin: auto;
+    margin: 0px;
+    --width: 95%;
+    --margin: auto;
     font: 18px Arial;
 }
 
 
 #cabecera {
+    width: 95%;
+    margin: auto;
     padding: 10px 0px 0px;
     text-align: center;    
 }
@@ -16,8 +19,7 @@ body {
 	margin: 0;
     padding: 5px;
     background: #111;
-    color: #fff;
-    margin-top: 0px;
+    color: #fff;    
 }
 #cabecera #logoGITHUB {
     width: 50px;
@@ -66,7 +68,7 @@ body {
 
 #contenido {
     margin: 0 0 10px 0;
-    padding: 5px 20px;
+    padding: 0px 2.5%;
     text-align: left;
     border-top: 1px dashed gray;
     border-bottom: 1px dashed gray;
@@ -75,14 +77,17 @@ body {
     text-align: center;
 }
 #Presentacion {
-
+    padding: 5px 20px;
 }
 #Ejemplos {
     display: none;
+    padding: 5px 20px;
 }
 
 
 #pie {
+    width: 95%;
+    margin: auto;
     padding: 0px 0px 5px 0px;
     margin-bottom: 10px;
     text-align: center;
